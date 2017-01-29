@@ -274,7 +274,7 @@ and (max-device-width : 1024px) {
 
 /*media query mobile*/
 
-@media (min-width: 360px max-width: 412px) {
+@media (min-width: 360px) and (max-width: 412px) {
   
   /*intro*/
   .intro-heading {
@@ -286,7 +286,7 @@ and (max-device-width : 1024px) {
   }
 }
 
-@media (min-width: 320px  max-width: 359px) {
+@media (min-width: 320px) and (max-width: 359px) {
   
    /*intro*/
   .intro-heading {
