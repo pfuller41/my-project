@@ -343,6 +343,7 @@ and (max-device-width : 1024px) {
     left: 0;
     top: 0;
     background-color: rgba(158, 126, 10, 0.78);
+    background: -webkit-radial-gradient(circle closest-corner, rgba(245, 248, 82, 0.98) 5%, rgba(243, 136, 6, 0.98) 40%, rgba(48, 109, 207, 0.43));
     background: radial-gradient(circle closest-corner, rgba(245, 248, 82, 0.98) 5%, rgba(243, 136, 6, 0.98) 40%, rgba(48, 109, 207, 0.43));      
     opacity: 0.9;
   }
