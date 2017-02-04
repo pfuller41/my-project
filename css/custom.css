@@ -270,6 +270,9 @@ and (max-device-width : 1024px) {
     width: 50%;
   }
   
+  iframe {
+    width: 100%;
+  }
 }
 
 /*media query mobile*/
