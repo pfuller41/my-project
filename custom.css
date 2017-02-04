@@ -1,0 +1,468 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  position: relative;
+}
+
+/*fixed-navbar*/
+
+.navbar {
+  background-color: rgba(34, 35, 26, 0.69);
+  border-bottom: none;
+}
+
+.navbar-brand,
+.icon {
+  font-size: 1.5rem;
+  padding-right: 1.5rem;
+}
+ 
+/*intro*/
+
+.intro {
+  width: 100%;                                                  
+  height: 100%;
+  background-image: url("../imgs/garden.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+  color: rgba(34, 35, 26, 1);
+  padding: 0;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgba(34, 35, 26, 1);
+  color: rgba(5, 20, 5, 0.77);
+  opacity: 0.9;                
+}
+
+.content {
+  position: relative;
+  width: 100%;
+  top: 40%;
+}
+
+.intro,
+.intro-heading {
+  color: rgba(255, 255, 255, 1);
+  font-size: 6rem;
+  text-align: center;
+  font-family: 'Great Vibes', cursive, sans-serif;
+  text-transform: capitalize;
+  text-shadow: 2px 8px 6px rgba(255,255,255,0.3), 0px -5px 35px rgba(0,0,0,0.2);
+  padding-bottom: 3rem;
+}
+
+.intro,
+.intro-text {
+  color: rgba(255, 255, 255, 1);
+  text-transform: lowercase;
+  text-align: right;
+  font-size: 2rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*Parallax*/
+
+.parallax-one {
+    background: url("../imgs/rain.jpg");
+    height: 30%;
+    background-attachment: fixed;                    /*Create the parallax scrolling effect*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*practices*/
+
+#practices {
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+}
+
+.section-heading {
+  color: rgba(0, 102, 0, 1);
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  text-transform: capitalize;
+  text-shadow: 1px 1px rgba(0, 0, 0, 1);
+  padding-bottom: 2.75rem;
+  padding-top: 2rem;
+ }
+
+.feature-img {
+  padding-top: 2rem;
+} 
+
+.feature-title {
+  font-family: 'Playfair Display', serif;
+  color: rgba(0, 102, 0, 1);
+  text-align: center;
+  text-shadow: 1px 1px rgba(0, 0, 0, 1);
+  text-transform: capitalize;
+  padding-top: 2.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.feature-icon {
+  color: rgba(0, 102, 0, 1);
+  font-size: 6rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.99), 1px 1px 0px rgba(255, 255, 255, 0.99), 2px 2px 0px rgba(255, 255, 255, 0.99), -2px -2px 0px rgba(0, 0, 0, 0.99); 
+}
+
+.feature-icon-4 {
+  color: rgba(0, 102, 0, 1);
+  font-size:3.25rem;
+  text-align: center;
+  padding-top: 0;
+  text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.99), 1px 1px 0px rgba(255, 255, 255, 0.99), 2px 2px 0px rgba(255, 255, 255, 0.99), -2px -2px 0px rgba(0, 0, 0, 0.99);
+}
+
+.feature-icon-3 {
+  color: rgba(0, 102, 0, 1);
+  font-size:3.25rem;
+  text-align: center;
+  padding-top: 0.05rem;
+  text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.99), 1px 1px 0px rgba(255, 255, 255, 0.99), 2px 2px 0px rgba(255, 255, 255, 0.99), -2px -2px 0px rgba(0, 0, 0, 0.99);
+}
+
+.feature-icon-2,
+.feature-icon-5 {
+  color: rgba(0, 102, 0, 1);
+  font-size: 3.55rem;
+  text-align: center;
+  padding-top: 0;
+  text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.99), 1px 1px 0px rgba(255, 255, 255, 0.99), 2px 2px 0px rgba(255, 255, 255, 0.99), -2px -2px 0px rgba(0, 0, 0, 0.99);
+}
+
+.feature-text {
+  font-family: 'Raleway', sans-serif;
+  color: rgba(0, 102, 0, 1);
+  text-shadow: none;
+  text-align: center;
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 1rem; 
+}
+
+/*Gallery*/
+
+.gallery {
+  background-color: rgba(0, 0, 0, 1);
+  width: 100%;
+}
+
+.gallery-heading {
+  font-family: 'Bilbo', cursive;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  text-transform: capitalize;
+  padding-top: 2rem;
+}
+
+.gallery,
+.gallery-row,
+.col-md-4,
+.img-fluid {
+  padding: 0;
+}
+
+.gallery,
+.all-text,
+.click-text {
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  font-size: 1.5rem;
+  display: inline-block;
+  font-family: 'Raleway', sans-serif;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.img-fluid {
+  height: auto;
+  width: 100%;
+}
+
+/*calendar*/
+
+.calendar {
+  background-color: rgba(204, 204, 153, 1);
+  padding: 1rem;
+}
+
+.calendar-heading {
+  color: rgba(0, 0, 0, 0.97);
+  text-shadow: none;
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 2rem;
+  text-align: center;
+}
+
+.calendar-row {
+  display: inline-block;
+  text-align: center;
+  width: 100%; 
+}
+
+.agenda-row-2,
+.agenda-text {
+  color: rgba(0, 0, 0, 1); 
+  font-family: 'Cinzel', serif;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+  padding: 2rem;
+}
+
+iframe {
+  border: solid 1px rgba(119, 119, 119, 0.1);
+  box-shadow: 0 0 5px 5px rgba(136, 136, 136, 0.1);
+  width: 80%;
+  overflow: hidden;
+}
+
+/*contact*/
+
+.contact-heading {
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+}
+
+/*media query ipad pro*/
+
+@media only screen 
+and (min-device-width : 1024px) 
+and (max-device-width : 1366px) {
+   
+  .col-md-3,
+  .col-sm-6 {
+    width: 50%;
+  }
+
+  .gallery-heading {
+    padding-bottom: 2rem;
+  }
+}
+
+/*media query ipad*/
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+
+  .col-md-3,
+  .col-sm-6 {
+    width: 50%;
+  }
+
+  iframe {
+    width: 100%;
+  }
+  
+}
+
+/*media query mobile*/
+
+@media (min-width: 360px) and (max-width: 412px) {
+  
+  /*intro*/
+  .intro-heading {
+  	font-size: 2rem;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Great Vibes', cursive;
+    text-transform: capitalize;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 359px) {
+  
+   /*intro*/
+  .intro-heading {
+    text-align: left;
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 767px) {
+
+  /*navbar*/
+
+  .navbar {
+    background: transparent;
+  }
+
+  .navbar-brand,
+  #icon {
+    color: rgba(0, 0, 0, 1);
+    text-align: left;
+  } 
+  
+  .nav-item,
+  .nav-link {
+    background-color: rgba(0, 0, 0, 0.71);
+    text-align: left;
+  }
+
+  .nav-item,
+  .nav-link,
+  a {
+    text-decoration: none !important;
+    text-align: left;
+  }
+
+  /*intro*/
+  
+  .intro {
+    width: 100%;
+    height: 100%;
+    background-image: url(../imgs/grass.jpg); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+    background-attachment: fixed;
+    overflow: hidden;  
+    padding: 0;  
+  }
+
+  .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(158, 126, 10, 0.78);
+    background: -webkit-radial-gradient(circle closest-corner, rgba(245, 248, 82, 0.98) 5%, rgba(243, 136, 6, 0.98) 40%, rgba(48, 109, 207, 0.43));
+    background: radial-gradient(circle closest-corner, rgba(245, 248, 82, 0.98) 5%, rgba(243, 136, 6, 0.98) 40%, rgba(48, 109, 207, 0.43));      
+    opacity: 0.9;
+  }
+
+  .intro-heading,
+  h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Great Vibes', cursive;
+    text-transform: capitalize;
+  }
+
+  .content {
+    top: 55%;
+    left: 2%;
+  }
+
+  /*practices*/
+
+  #practices {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+
+  .feature-img {
+    padding-top: 1rem;
+  }
+
+  .section-heading {
+    color: rgba(0, 102, 0, 1);
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    text-shadow: none;
+    padding-bottom: 1rem;
+    padding-top: 0.75rem;
+    font-size: 2rem;
+  } 
+
+  .feature-title {
+    color: rgba(0, 102, 0, 1);
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    font-size: 1.75rem;
+  }
+
+  /*calendar*/
+
+  .calendar {
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  .agenda-row-2,
+  .agenda-text {
+    padding: 1rem;
+  }
+
+  iframe {
+    width: 100%;
+    border: solid 1px rgba(119, 119, 119, 0.1);
+    overflow: hidden;
+    box-shadow: none;
+  }
+
+  /*mobile carousel*/
+
+  .gardens {
+    background-color: rgba(0, 0, 0, 1);
+  }
+  
+  .gardens-heading {
+    font-family: 'Bilbo', cursive;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    text-transform: capitalize;
+    padding-top: 0.50rem;
+  }
+
+ #my-carousel,
+ .carousel-item img  {
+    width: 100%;
+    height: auto;
+    margin: auto 0;
+  }
+  
+  .carousel-control,
+  .icon-prev, 
+  .icon-next,
+  a {
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .carousel-title,
+  h6 {
+    background-color: rgba(255, 255, 255, 0.59);
+    padding: 0.5rem 0;
+  }
+  
+  .carousel-title,
+  h6,
+  a:link,
+  a:visited,
+  a:hover,
+  a:active {
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 1);
+  }
+
+  /*contact*/
+
+  .contact {
+    background-color: rgba(18, 17, 17, 0.08);
+  }
+}
+  
+
+
